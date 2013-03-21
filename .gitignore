@@ -1,3 +1,26 @@
 Global setup:
 set up git
 git config --global user.name"Tisshuhime"
+git config --global user.email q0970090759@yahoo.com.tw
+Add your public key
+
+Next steps:
+mkdir Hello-github
+cd Hello-github
+git init
+touch README
+git add README
+git commit -m 'first commit'
+git remote add origin git@github.com:rixia/Hello-github.git
+
+
+Existing Git Repo?
+cd existing_git_repo
+git remote add orgin git@github.com:rixia/Hello-github.git
+git push -u origin master
+
+Importing a Subversion Repo?
+click here
+
+When you're done:
+Continue
